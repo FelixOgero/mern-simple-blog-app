@@ -46,6 +46,9 @@ const Login = () => {
         <button type="submit" className="btn btn-primary">
           Login
         </button>
+
+        <p className='mt-2'>Have no account,<a href="/register">Register</a></p>
+        <p className='mt-2 mr-4'>Back <a href="/">Home</a></p>
       </form>
     </div>
   );

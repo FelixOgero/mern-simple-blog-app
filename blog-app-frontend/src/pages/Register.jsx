@@ -72,6 +72,8 @@ const Register = () => {
         <button type="submit" className="btn btn-primary">
           Register
         </button>
+        <p className='mt-2'>Already have an account,<a href="/login">Login</a></p>
+        <p className='mt-2 mr-4'>Back <a href="/">Home</a></p>
       </form>
     </div>
   );
